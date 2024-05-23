@@ -6,7 +6,7 @@ const locales = ['en', 'fr' , 'ar' , 'id' , 'es' , 'it']
  const noLocale = ['blog' , '']
 // Adapt this as necessary
 const pathnames = ['' , 'about' , 'tiktok-image-downloader' , 'tiktok-carousel-downloader' ];
-const host = 'http://localhost:3000';
+const host = 'https://www.tiksaver.app';
  
 import Article from '../lib/model/article'
 
