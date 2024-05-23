@@ -28,7 +28,7 @@ export default function MyComponent() {
   async function generate() {
     setAiLoading(true)
     try {
-        const response =await axios.post('http://localhost:3000/api/ai/article-by-title' , {
+        const response =await axios.post('/api/ai/article-by-title' , {
             title : title
         })
         const data = response.data
