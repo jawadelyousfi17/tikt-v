@@ -25,7 +25,7 @@ export default function MyComponent() {
     try {
       if(categories.length === 0) setCategories(['uncatigorized'])
       const response = await axios.post(
-        "http://localhost:3000/api/article/new",
+        "/api/article/new",
         {
           title,
           content: value,
